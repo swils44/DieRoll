@@ -15,6 +15,5 @@ def main(n):
         print(f"Probability of rolling a {score}:  {probability:.3f}")
 
 
-
 N = int(input("Number of dice(n) to roll: "))
 main(N)

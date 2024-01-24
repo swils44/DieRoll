@@ -1,7 +1,7 @@
 from Die import rollUnfairDie as ufd
 from Die import rollFairDie as rfd
 
-x = 0
+x =0
 
 def rolldice(N):
     """

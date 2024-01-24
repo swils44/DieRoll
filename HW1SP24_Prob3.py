@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import statistics
 from scipy.stats import norm
 from math import sqrt
-#x = []
+#x =[]
 #for i in range(1000):
    # x.append(random.normalvariate())
 mean = float(input("Enter the wanted mean: "))

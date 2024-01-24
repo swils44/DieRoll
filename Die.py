@@ -134,4 +134,3 @@ def rollUnfairDie():
     elif (x <= 6.0 / 6):
         prob6 += 1
         return 6
-
