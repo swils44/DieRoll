@@ -8,7 +8,7 @@ from math import sqrt
 #for i in range(1000):
    # x.append(random.normalvariate())
 mean = float(input("Enter the wanted mean: "))
-std_dev = float(input("Enter the wanted Standeard Deviation: "))
+std_dev = float(input("Enter the wanted Standard Deviation: "))
 x = [random.normalvariate(mean, std_dev) for _ in range(1000)]
 
 print(x)

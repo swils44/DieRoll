@@ -46,6 +46,12 @@ def rollFairDie():
         prob6 += 1
         return 6
 def prob1k():
+    """
+    Calculates the total probability of rolling each number on a die
+    Uses the global variable prob1-prob6 which count each time a number on a die is rolled
+    then divides that by the total number of rolls 1000
+    :return:
+    """
     global total
     global prob1
     global prob2
@@ -67,6 +73,12 @@ def prob1k():
     print(f"Probability of rolling a 5: {prob5}")
     print(f"Probability of rolling a 6: {prob6}")
 def prob10k():
+    """
+        Calculates the total probability of rolling each number on a die
+        Uses the global variable prob1-prob6 which count each time a number on a die is rolled
+        then divides that by the total number of rolls 10,000
+        :return:
+        """
     global total2
     global prob1
     global prob2
