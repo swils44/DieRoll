@@ -72,6 +72,7 @@ def prob1k():
     print(f"Probability of rolling a 4: {prob4}")
     print(f"Probability of rolling a 5: {prob5}")
     print(f"Probability of rolling a 6: {prob6}")
+
 def prob10k():
     """
         Calculates the total probability of rolling each number on a die
